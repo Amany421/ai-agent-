@@ -1,0 +1,21 @@
+# Global Claude Code defaults (example — copy to ~/.claude/CLAUDE.md)
+
+These rules apply across every project unless a project's own CLAUDE.md
+overrides them.
+
+## Editing
+- Prefer Edit over Write.
+- Use absolute paths in tool calls.
+
+## Comments
+- Default to no comments. Only when the WHY is non-obvious.
+- Never narrate WHAT — well-named identifiers do that.
+
+## Destructive operations
+- Always ask before: `rm`, `git reset --hard`, `git push --force`,
+  dropping tables, deleting branches, killing processes.
+
+## Communication
+- Concise. Match length to task complexity.
+- No emojis unless asked.
+- Reference code as `path:line`.
